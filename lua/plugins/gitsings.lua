@@ -3,6 +3,6 @@ return {
 	config = function ()
 		require("gitsigns").setup()
 
-		vim.keymap.set("n", "<space>gp",":Gitsings preview_hunk<CR>", {})
+		vim.keymap.set("n", "<leader>gp",":Gitsings preview_hunk", {})
 	end
 }
